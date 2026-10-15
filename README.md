@@ -3,9 +3,9 @@
 > Hosted live at **[https://davmoha.github.io/](https://davmoha.github.io/)**
 
 ## Overview
-- **Role:** Service Deliver Manager
+- **Role:** Technical Project Manager - Cybersecurity
 - **Contact:** [virtualmoha@gmail.com](mailto:virtualmoha@gmail.com)
-- **Certifications / Credentials:** PMP, CSM, PCCSE, CSPO
+- **Certifications / Credentials:** PMP, CSM, PCCSE
 
 ## About
 I am an operations professional with experience organizing work, documenting processes, and collaborating across teams. I specialize in bridging the gap between business needs and technical delivery, whether that means deploying AI tools, redesigning workflows, or managing cross-functional projects.
