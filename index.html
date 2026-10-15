@@ -8,14 +8,14 @@
 <style>
 :root{
   --bg:#538874;
-  --surface:#1c0d21;
-  --surface-2:#8bb2c6;
-  --border:#484e1d;
-  --text:#e6f7f0;
-  --muted:#363a39;
-  --accent:#10b981;
-  --accent-2:#454a87;
-  --button-gradient:linear-gradient(135deg, #b0b257 0%, #985fbf 100%);
+  --surface:#14515a;
+  --surface-2:#bfe8ec;
+  --border:#2f6f79;
+  --text:#f2fbfc;
+  --muted:#c7e3e7;
+  --accent:#ffb84d;
+  --accent-2:#5b6cff;
+  --button-gradient:linear-gradient(135deg, #31a2b1 0%, #ffb84d 100%);
   --shadow:0 10px 30px rgba(0,0,0,.25);
   --radius:.75rem;
 }
@@ -37,7 +37,7 @@ nav{display:flex;gap:1rem;align-items:center;justify-content:space-between;flex-
 .nav-links a{color:var(--muted);text-decoration:none;font-weight:500;font-size:.95rem;transition:color .2s}
 .nav-links a:hover,.nav-links a[aria-current="true"]{color:#fff}
 .nav-actions{display:flex;gap:.6rem;align-items:center;flex-wrap:wrap}
-.button{display:inline-block;padding:.55rem 1.15rem;border-radius:999px;text-decoration:none;font-weight:600;font-size:.9rem;border:1px solid transparent;transition:transform .15s,box-shadow .2s;cursor:pointer}
+.button{display:inline-block;padding:.55rem 1.15rem;border-radius:999px;text-decoration:none;font-weight:600;font-size:.9rem;border:1px solid transparent;transition:transform .15s,box-shadow .2s;curso[...]
 .button:hover{transform:translateY(-1px)}
 .button.primary{background:var(--button-gradient);color:#fff;box-shadow:0 4px 14px rgba(45,212,191,.25)}
 .button.outline{background:transparent;border-color:var(--border);color:#fff}
@@ -58,12 +58,12 @@ h2{font-size:1.65rem;font-weight:700}
 .tag{padding:.35rem .85rem;background:var(--surface-2);border:1px solid var(--border);border-radius:999px;color:var(--accent-2);font-size:.85rem;font-weight:500}
 .skills-grid{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:1rem}
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.25rem;margin-top:1.25rem}
-.card{position:relative;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem;display:flex;flex-direction:column;transition:transform .25s ease,box-shadow .25s ease,border-color .2s ease;overflow:hidden}
+.card{position:relative;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem;display:flex;flex-direction:column;transition:transform .25s ease,box-shadow .25s ease}
 .card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
 
 /* Card Visual Design Styles */
 .card-style-silver-shimmer{
-  background:linear-gradient(135deg, rgba(255,255,255,.07) 0%, rgba(200,215,240,.015) 35%, rgba(255,255,255,.14) 50%, rgba(200,215,240,.015) 65%, rgba(255,255,255,.04) 100%), var(--surface);
+  background:linear-gradient(135deg, rgba(255,255,255,.07) 0%, rgba(191,232,236,.02) 35%, rgba(255,255,255,.14) 50%, rgba(191,232,236,.02) 65%, rgba(255,255,255,.04) 100%), var(--surface);
   border:1px solid rgba(226,232,240,.28);
   box-shadow:0 4px 20px rgba(0,0,0,.35), inset 0 1px 1px rgba(255,255,255,.2);
 }
@@ -82,7 +82,7 @@ h2{font-size:1.65rem;font-weight:700}
 .card-style-silver-shimmer:hover::before{left:130%}
 .card-style-silver-shimmer:hover{
   border-color:rgba(255,255,255,.65);
-  box-shadow:0 14px 35px rgba(0,0,0,.5), 0 0 25px rgba(226,232,240,.22), inset 0 1px 2px rgba(255,255,255,.45);
+  box-shadow:0 14px 35px rgba(0,0,0,.5), 0 0 25px rgba(191,232,236,.22), inset 0 1px 2px rgba(255,255,255,.45);
 }
 
 .card-style-matrix-rain{
@@ -126,7 +126,7 @@ h2{font-size:1.65rem;font-weight:700}
 }
 .card-style-diamond-grid:hover{
   border-color:var(--accent);
-  box-shadow:0 12px 30px rgba(0,0,0,.35), 0 0 20px rgba(45,212,191,.18);
+  box-shadow:0 12px 30px rgba(0,0,0,.35), 0 0 20px rgba(255,184,77,.18);
 }
 
 .card-style-tech-checker{
@@ -153,14 +153,14 @@ h2{font-size:1.65rem;font-weight:700}
 .card-style-aurora-glow{
   background:
     radial-gradient(circle at 10% 10%, rgba(45,212,191,.14) 0%, transparent 60%),
-    radial-gradient(circle at 90% 90%, rgba(129,140,248,.16) 0%, transparent 60%),
+    radial-gradient(circle at 90% 90%, rgba(91,108,255,.16) 0%, transparent 60%),
     var(--surface);
   border:1px solid rgba(255,255,255,.14);
   backdrop-filter:blur(10px);
 }
 .card-style-aurora-glow:hover{
   border-color:var(--accent);
-  box-shadow:0 14px 35px rgba(0,0,0,.45), 0 0 28px rgba(45,212,191,.25);
+  box-shadow:0 14px 35px rgba(0,0,0,.45), 0 0 28px rgba(255,184,77,.25);
 }
 .card-icon{width:42px;height:42px;display:grid;place-items:center;background:var(--surface-2);border:1px solid var(--border);border-radius:.6rem;color:var(--accent);margin-bottom:1rem;font-size:1.2rem}
 .card h3{margin:.25rem 0 .6rem;font-size:1.15rem}
@@ -170,11 +170,11 @@ h2{font-size:1.65rem;font-weight:700}
 .card-meta{display:flex;align-items:center;gap:.75rem;flex-wrap:wrap;margin-top:1rem;font-size:.82rem;color:var(--muted)}
 .dot{width:8px;height:8px;border-radius:50%;background:var(--accent)}
 .card-badges{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:.9rem}
-.badge{padding:.25rem .6rem;background:rgba(45,212,191,.1);border:1px solid rgba(45,212,191,.25);border-radius:.4rem;color:var(--accent);font-size:.75rem;font-weight:600}
+.badge{padding:.25rem .6rem;background:rgba(255,184,77,.1);border:1px solid rgba(255,184,77,.25);border-radius:.4rem;color:var(--accent);font-size:.75rem;font-weight:600}
 .filters{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:1rem}
 .filter{padding:.45rem 1rem;background:transparent;border:1px solid var(--border);border-radius:999px;color:var(--muted);font-size:.85rem;cursor:pointer;transition:.2s}
 .filter:hover{border-color:var(--accent);color:#fff}
-.filter.active{background:rgba(45,212,191,.12);border-color:var(--accent);color:var(--accent);font-weight:600}
+.filter.active{background:rgba(255,184,77,.12);border-color:var(--accent);color:var(--accent);font-weight:600}
 .compact-cards{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
 .compact-cards .card{padding:1.25rem}
 .compact-cards .card h3{font-size:1.05rem}
@@ -229,7 +229,7 @@ footer{border-top:1px solid var(--border);padding:2.5rem 0;color:var(--muted);fo
 <section id="about">
   <div class="section-label">About me</div>
   <h2>Operations-driven problem solver</h2>
-  <p>I am an operations professional with experience organizing work, documenting processes, and collaborating across teams. I specialize in bridging the gap between business needs and technical delivery, whether that means deploying AI tools, redesigning workflows, or managing cross-functional projects.</p>
+  <p>I am an operations professional with experience organizing work, documenting processes, and collaborating across teams. I specialize in bridging the gap between business needs and technical delivery.</p>
 </section>
 
 <section id="experience">
