@@ -3,7 +3,7 @@
 > Hosted live at **[https://davmoha.github.io/](https://davmoha.github.io/)**
 
 ## Overview
-- **Role:** Technical Project Manager - Cybersecurity
+- **Role:** Technical Project Manager | AI Solution Consultant
 - **Contact:** [virtualmoha@gmail.com](mailto:virtualmoha@gmail.com)
 - **Certifications / Credentials:** PMP, CSM, PCCSE
 
